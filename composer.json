@@ -1,0 +1,25 @@
+{
+    "name": "postor/yii2-subdomain-urlmanager",
+    "description": "make subdomain as a query param for yii2.",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "yii 2", "subdomian", "domain", "urlmanager", "url"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "LinYanjun",
+            "email": "postor@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/postor/yii2-subdomain-urlmanager/issues?state=open",
+        "source": "https://github.com/postor/yii2-subdomain-urlmanager"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "postor\\subdomain\\": ""
+        }
+    }
+}
